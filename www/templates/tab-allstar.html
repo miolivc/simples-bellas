@@ -1,0 +1,12 @@
+<ion-view view-title="All Star">
+  <ion-content class="padding">
+    <div class="list">
+      <!--<a class="item item-thumbnail-left" href="#" ng-repeat="post in postings" ng-if="category == 'CA00000021'">-->
+      <a class="item item-thumbnail-left" ng-click="showDetail(post)" ng-repeat="post in postings | filter:'CA00000021'">
+        <img src="{{post.path}}">
+        <h2>{{post.title}}</h2>
+        <p>{{post.description}}</p>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

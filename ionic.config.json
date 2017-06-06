@@ -1,0 +1,10 @@
+{
+  "name": "simplesbellas",
+  "app_id": "ifpb.pdm",
+  "proxies": [
+  	{
+  		"path": "/nozip",
+  		"proxyUrl": "http://1v00r02n.service.ag-simplesebellas.appspot.com/query/nozip"
+  	}
+  ]
+}
