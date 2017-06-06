@@ -1,4 +1,9 @@
 <ion-view view-title="{{detail.title}}">
+	<ion-nav-buttons side="left">
+		<button class="button button-clear" ng-click="goBack()">
+			<i class="icon ion-ios-arrow-back"></i>
+		</button>
+	</ion-nav-buttons>
 	<ion-content class="padding"> 
 		<img ng-src="{{detail.path}}" style="width:100%">
 		<div ng-bind-html="detail.detail"></div>

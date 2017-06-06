@@ -54,4 +54,8 @@ app.controller('DetailCtrl', ["$rootScope", "$scope", "$state", "apiService", fu
   }
 
   $scope.detail = object
+
+  $scope.goBack = function(){
+    history.back()
+  }
 }])
