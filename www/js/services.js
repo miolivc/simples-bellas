@@ -1,7 +1,8 @@
 var app = angular.module('starter.services', [])
 
 app.service("apiService", ["$http", function($http){
-  var baseUrl = "http://localhost:8100/nozip/"
+  var baseUrl = "http://1v00r02n.service.ag-simplesebellas.appspot.com/query/nozip"
+  // var baseUrl = "http://localhost:8100/nozip/"
   // URL de busca das categorias
   var categoriesUrl = baseUrl + "categories" 
   // URL de busca das postagens
